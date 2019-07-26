@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+  <separator label="ArcoLinux"/>
+    <item label="Terminal" icon="/home/phil/.config/obmenu-generator/icons/2f2d34aa02496a505989520ed0074a29.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="File Manager" icon="/home/phil/.config/obmenu-generator/icons/712c5044126b09ec7cc4e459311b8f91.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Web Browser" icon="/home/phil/.config/obmenu-generator/icons/8515c04d7657bd5f83a0ad24d8fad128.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser ]]></command></action></item>
+    <item label="Text Editor" icon="/home/phil/.config/obmenu-generator/icons/8be882ed3b996eaf2ea7cd6054a41796.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+  <separator/>
+  <menu id="0.568742201970057" icon="/home/phil/.config/obmenu-generator/icons/363b70faeffd191cf2bed794bd7aa38c.png" label="Accessories">
+    <item label="Application Finder" icon="/home/phil/.config/obmenu-generator/icons/7f54be5421e100673410106377a85b43.png"><action name="Execute"><command><![CDATA[xfce4-appfinder]]></command></action></item>
+    <item label="Archive Manager" icon="/home/phil/.config/obmenu-generator/icons/f6ef504db11be8fb7f725751cbc0d035.png"><action name="Execute"><command><![CDATA[file-roller]]></command></action></item>
+    <item label="Atom" icon="/home/phil/.config/obmenu-generator/icons/7a941820e9a9e15b97ec79ed935f16f6.png"><action name="Execute"><command><![CDATA[/usr/bin/atom]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/phil/.config/obmenu-generator/icons/712c5044126b09ec7cc4e459311b8f91.png"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="Catfish File Search" icon="/home/phil/.config/obmenu-generator/icons/cebd6e19434a4c10ed21a2e8b862444d.png"><action name="Execute"><command><![CDATA[/usr/bin/catfish]]></command></action></item>
+    <item label="Character Map" icon="/home/phil/.config/obmenu-generator/icons/cf2fcc8f4f5227339a23295c5f31b50a.png"><action name="Execute"><command><![CDATA[gucharmap]]></command></action></item>
+    <item label="Clipman" icon="/home/phil/.config/obmenu-generator/icons/ed988036245c8309c53a1171a0496421.png"><action name="Execute"><command><![CDATA[xfce4-clipman]]></command></action></item>
+    <item label="Conkyzen" icon="/home/phil/.config/obmenu-generator/icons/f53eea3317f7adc47d4697cc632c92c5.png"><action name="Execute"><command><![CDATA[am-conkyzen]]></command></action></item>
+    <item label="CoverGloobus" icon="/home/phil/.config/obmenu-generator/icons/bd5469d034342542f2cd2075ee8d7e11.png"><action name="Execute"><command><![CDATA[covergloobus]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/phil/.config/obmenu-generator/icons/712c5044126b09ec7cc4e459311b8f91.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="File Manager" icon="/home/phil/.config/obmenu-generator/icons/712c5044126b09ec7cc4e459311b8f91.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Font Manager" icon="/home/phil/.config/obmenu-generator/icons/3b959d5708e2237b027d1d6111cd1c2c.png"><action name="Execute"><command><![CDATA[font-manager]]></command></action></item>
+    <item label="Font Viewer" icon="/home/phil/.config/obmenu-generator/icons/3b959d5708e2237b027d1d6111cd1c2c.png"><action name="Execute"><command><![CDATA[/usr/libexec/font-manager/font-viewer]]></command></action></item>
+    <item label="Galculator" icon="/home/phil/.config/obmenu-generator/icons/3cf2baee12df382c9a7a8b5f5be7ff86.png"><action name="Execute"><command><![CDATA[galculator]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/phil/.config/obmenu-generator/icons/3cd543bfa4b9b58012e49fa740c8600b.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/phil/.config/obmenu-generator/icons/0e1fa25dfd9407171c3a18994d762d42.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Mousepad" icon="/home/phil/.config/obmenu-generator/icons/049bb2d7f23e5260445dd08a4f649fdd.png"><action name="Execute"><command><![CDATA[mousepad]]></command></action></item>
+    <item label="Notes" icon="/home/phil/.config/obmenu-generator/icons/2a9f269c697bf1b50e21942159b7a05b.png"><action name="Execute"><command><![CDATA[xfce4-notes]]></command></action></item>
+    <item label="Orage Globaltime" icon="/home/phil/.config/obmenu-generator/icons/e97928d488b6309db5f5d7fff0fffc7c.png"><action name="Execute"><command><![CDATA[globaltime]]></command></action></item>
+    <item label="Plank" icon="/home/phil/.config/obmenu-generator/icons/d7fbd15ee71cbf7c56b84330d6b51e05.png"><action name="Execute"><command><![CDATA[plank]]></command></action></item>
+    <item label="Redshift" icon="/home/phil/.config/obmenu-generator/icons/19690725c1c182ce3efae12b3a64c6e8.png"><action name="Execute"><command><![CDATA[redshift-gtk]]></command></action></item>
+    <item label="Run Program..." icon="/home/phil/.config/obmenu-generator/icons/ffd51bffbdd650933b664866bebb47fe.png"><action name="Execute"><command><![CDATA[xfce4-appfinder --collapsed]]></command></action></item>
+    <item label="Screenkey" icon="/home/phil/.config/obmenu-generator/icons/1c293d57b78e1b12b8d690887cc2e50e.png"><action name="Execute"><command><![CDATA[screenkey]]></command></action></item>
+    <item label="Screenshot" icon="/home/phil/.config/obmenu-generator/icons/17394a8ef76bd3393e6025671d7384f8.png"><action name="Execute"><command><![CDATA[gnome-screenshot --interactive]]></command></action></item>
+    <item label="Screenshot" icon="/home/phil/.config/obmenu-generator/icons/7db2e74eb5d74129fba336b3f1453ed3.png"><action name="Execute"><command><![CDATA[xfce4-screenshooter]]></command></action></item>
+    <item label="Sensor Viewer" icon="/home/phil/.config/obmenu-generator/icons/92c462e023017274e82d43a3344a45b9.png"><action name="Execute"><command><![CDATA[xfce4-sensors]]></command></action></item>
+    <item label="Stacer" icon="/home/phil/.config/obmenu-generator/icons/e88690dea532c39fd24fdcb4aa0c6ab6.png"><action name="Execute"><command><![CDATA[/usr/share/stacer/stacer]]></command></action></item>
+    <item label="Task Manager" icon="/home/phil/.config/obmenu-generator/icons/3dbf4fdf84d0bdb7af03962a8f12d1dd.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Temps" icon="/home/phil/.config/obmenu-generator/icons/46e67c098d583274368262e792aa0015.png"><action name="Execute"><command><![CDATA[temps]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/phil/.config/obmenu-generator/icons/2f2d34aa02496a505989520ed0074a29.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/phil/.config/obmenu-generator/icons/712c5044126b09ec7cc4e459311b8f91.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="USB Image Writer" icon="/home/phil/.config/obmenu-generator/icons/cf6b72a6bb6aeb9f66eacbfa215556a1.png"><action name="Execute"><command><![CDATA[mintstick -m iso]]></command></action></item>
+    <item label="USB Stick Formatter" icon="/home/phil/.config/obmenu-generator/icons/cf6b72a6bb6aeb9f66eacbfa215556a1.png"><action name="Execute"><command><![CDATA[mintstick -m format]]></command></action></item>
+    <item label="Variety" icon="/home/phil/.config/obmenu-generator/icons/8ad06b0e2543db0b30648eb957cd54c7.png"><action name="Execute"><command><![CDATA[variety]]></command></action></item>
+    <item label="Vim" icon="/home/phil/.config/obmenu-generator/icons/14546d4e5f310669f5224dc0f06cfcab.png"><action name="Execute"><command><![CDATA[termite -e 'vim']]></command></action></item>
+    <item label="Xfburn" icon="/home/phil/.config/obmenu-generator/icons/538e00fd7177a4ddd1a6d18e85bdc767.png"><action name="Execute"><command><![CDATA[xfburn]]></command></action></item>
+  </menu>
+  <menu id="0.217994911220984" icon="/home/phil/.config/obmenu-generator/icons/490f1d2b10015132b01ac2d04f016c7d.png" label="Development">
+    <item label="Atom" icon="/home/phil/.config/obmenu-generator/icons/7a941820e9a9e15b97ec79ed935f16f6.png"><action name="Execute"><command><![CDATA[/usr/bin/atom]]></command></action></item>
+    <item label="CMake" icon="/home/phil/.config/obmenu-generator/icons/8fa67c0c94f871022b1d68563c5ae7e8.png"><action name="Execute"><command><![CDATA[cmake-gui]]></command></action></item>
+    <item label="Electron" icon="/home/phil/.config/obmenu-generator/icons/7a941820e9a9e15b97ec79ed935f16f6.png"><action name="Execute"><command><![CDATA[electron]]></command></action></item>
+    <item label="Geany" icon="/home/phil/.config/obmenu-generator/icons/8be882ed3b996eaf2ea7cd6054a41796.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+    <item label="Heimdall" icon="/home/phil/.config/obmenu-generator/icons/eacd42f491c8703eee7187f93d644152.png"><action name="Execute"><command><![CDATA[heimdall-frontend]]></command></action></item>
+    <item label="Icon Browser" icon="/home/phil/.config/obmenu-generator/icons/94d8b2f85b6e9b22ef260814b0f7710f.png"><action name="Execute"><command><![CDATA[yad-icon-browser]]></command></action></item>
+    <item label="Meld" icon="/home/phil/.config/obmenu-generator/icons/d210ce7b89ab47467700fed60fb035ba.png"><action name="Execute"><command><![CDATA[meld]]></command></action></item>
+    <item label="Sublime Text 3 Dev" icon="/home/phil/.config/obmenu-generator/icons/9ca1aaa9ac51660a0ec6b462fdfdcb12.png"><action name="Execute"><command><![CDATA[subl3]]></command></action></item>
+  </menu>
+  <menu id="0.832057276313332" icon="/home/phil/.config/obmenu-generator/icons/c8f61b1d3ec454dfb2aa7ed2405982c3.png" label="Education">
+    <item label="LibreOffice Math" icon="/home/phil/.config/obmenu-generator/icons/79ba34acbc499233a338fccce9575660.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+  </menu>
+  <menu id="0.681387357270928" icon="/home/phil/.config/obmenu-generator/icons/c6e209d9b552934f2b29f4106d91bc79.png" label="Games">
+    <item label="CHUCHEL" icon="/home/phil/.config/obmenu-generator/icons/65d20fbc2ad953be6821265210490a21.png"><action name="Execute"><command><![CDATA[steam steam://rungameid/711660]]></command></action></item>
+    <item label="Dreamfall Chapters" icon="/home/phil/.config/obmenu-generator/icons/672fec0538d83c021837320c113bd224.png"><action name="Execute"><command><![CDATA[steam steam://rungameid/237850]]></command></action></item>
+    <item label="Lutris" icon="/home/phil/.config/obmenu-generator/icons/c71dd0346a206df426e5457fb516247f.png"><action name="Execute"><command><![CDATA[lutris]]></command></action></item>
+    <item label="Pressure Overdrive" icon="/home/phil/.config/obmenu-generator/icons/c47fbfc08f9e36077e68748f42b1fe04.png"><action name="Execute"><command><![CDATA[steam steam://rungameid/425240]]></command></action></item>
+    <item label="Proton 4.2" icon="/home/phil/.config/obmenu-generator/icons/c47fbfc08f9e36077e68748f42b1fe04.png"><action name="Execute"><command><![CDATA[steam steam://rungameid/1054830]]></command></action></item>
+    <item label="Road Redemption" icon="/home/phil/.config/obmenu-generator/icons/c47fbfc08f9e36077e68748f42b1fe04.png"><action name="Execute"><command><![CDATA[steam steam://rungameid/300380]]></command></action></item>
+    <item label="Steam (Native)" icon="/home/phil/.config/obmenu-generator/icons/c47fbfc08f9e36077e68748f42b1fe04.png"><action name="Execute"><command><![CDATA[/usr/bin/steam-native]]></command></action></item>
+    <item label="Steam (Runtime)" icon="/home/phil/.config/obmenu-generator/icons/c47fbfc08f9e36077e68748f42b1fe04.png"><action name="Execute"><command><![CDATA[/usr/bin/steam-runtime]]></command></action></item>
+    <item label="The Witcher 3: Wild Hunt" icon="/home/phil/.config/obmenu-generator/icons/362516234fefc0dc76d5c7f9bf11d371.png"><action name="Execute"><command><![CDATA[steam steam://rungameid/292030]]></command></action></item>
+    <item label="To the Moon" icon="/home/phil/.config/obmenu-generator/icons/d820826a5449d8b8e1db72f42b6c7eaf.png"><action name="Execute"><command><![CDATA[steam steam://rungameid/206440]]></command></action></item>
+    <item label="What Remains of Edith Finch" icon="/home/phil/.config/obmenu-generator/icons/cc1bb1cf76505cf2e2953a1f5a3ed10a.png"><action name="Execute"><command><![CDATA[steam steam://rungameid/501300]]></command></action></item>
+  </menu>
+  <menu id="0.845009988767817" icon="/home/phil/.config/obmenu-generator/icons/d5bec5ead605aa28d671c695ef5a5883.png" label="Graphics">
+    <item label="Darktable" icon="/home/phil/.config/obmenu-generator/icons/da3d5371510798712abab7cdcad13a65.png"><action name="Execute"><command><![CDATA[/usr/bin/darktable]]></command></action></item>
+    <item label="Document Viewer" icon="/home/phil/.config/obmenu-generator/icons/d960536fc0d79308388737b1a9a3c1e5.png"><action name="Execute"><command><![CDATA[evince]]></command></action></item>
+    <item label="Font Manager" icon="/home/phil/.config/obmenu-generator/icons/3b959d5708e2237b027d1d6111cd1c2c.png"><action name="Execute"><command><![CDATA[font-manager]]></command></action></item>
+    <item label="Font Viewer" icon="/home/phil/.config/obmenu-generator/icons/3b959d5708e2237b027d1d6111cd1c2c.png"><action name="Execute"><command><![CDATA[/usr/libexec/font-manager/font-viewer]]></command></action></item>
+    <item label="GNU Image Manipulation Program" icon="/home/phil/.config/obmenu-generator/icons/ab234886285148277e469f09639a151c.png"><action name="Execute"><command><![CDATA[gimp-2.10]]></command></action></item>
+    <item label="Gpick" icon="/home/phil/.config/obmenu-generator/icons/011ff3440853584f2eb56a8179a01196.png"><action name="Execute"><command><![CDATA[gpick]]></command></action></item>
+    <item label="Inkscape" icon="/home/phil/.config/obmenu-generator/icons/13d1003a02baca95f76f0396c455ff72.png"><action name="Execute"><command><![CDATA[inkscape]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/phil/.config/obmenu-generator/icons/335801628d3e91e0ccb06b9d30ec1333.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="nomacs" icon="/home/phil/.config/obmenu-generator/icons/972883f5e1eeb9b62b6b93d9ea8afba7.png"><action name="Execute"><command><![CDATA[nomacs]]></command></action></item>
+    <item label="Peek" icon="/home/phil/.config/obmenu-generator/icons/7bbc7a31489481196c6cdb851e2e0c39.png"><action name="Execute"><command><![CDATA[peek]]></command></action></item>
+    <item label="Ristretto Image Viewer" icon="/home/phil/.config/obmenu-generator/icons/be931387e1f5c1ebe1f395b090ef9e17.png"><action name="Execute"><command><![CDATA[ristretto]]></command></action></item>
+    <item label="Shotwell" icon="/home/phil/.config/obmenu-generator/icons/49feaa477bfbb035295ba469740ec453.png"><action name="Execute"><command><![CDATA[shotwell]]></command></action></item>
+    <item label="Simple Scan" icon="/home/phil/.config/obmenu-generator/icons/e287cdf31723b4c01462dd3c9c588cda.png"><action name="Execute"><command><![CDATA[simple-scan]]></command></action></item>
+  </menu>
+  <menu id="0.685756827457212" icon="/home/phil/.config/obmenu-generator/icons/e141113e4447604335a5febf42cc5763.png" label="Multimedia">
+    <item label="AllToMP3" icon="/home/phil/.config/obmenu-generator/icons/d5c4cb5156752c7489757a47277be130.png"><action name="Execute"><command><![CDATA["/opt/AllToMP3/alltomp3"]]></command></action></item>
+    <item label="Brasero" icon="/home/phil/.config/obmenu-generator/icons/538e00fd7177a4ddd1a6d18e85bdc767.png"><action name="Execute"><command><![CDATA[brasero]]></command></action></item>
+    <item label="EasyTAG" icon="/home/phil/.config/obmenu-generator/icons/22f1e35f647ccc2c9b252fab3c05d919.png"><action name="Execute"><command><![CDATA[easytag]]></command></action></item>
+    <item label="guvcview" icon="/home/phil/.config/obmenu-generator/icons/672185ffcc2f79ad96eca20958ce8996.png"><action name="Execute"><command><![CDATA[guvcview]]></command></action></item>
+    <item label="Kodi" icon="/home/phil/.config/obmenu-generator/icons/73893f3f00e8d7f83a45ec347f38e058.png"><action name="Execute"><command><![CDATA[kodi]]></command></action></item>
+    <item label="Parole Media Player" icon="/home/phil/.config/obmenu-generator/icons/371637c10db517818a8083a2fefd4181.png"><action name="Execute"><command><![CDATA[parole]]></command></action></item>
+    <item label="Pragha" icon="/home/phil/.config/obmenu-generator/icons/97c1d604a71ee1e58dd729889e88eb2f.png"><action name="Execute"><command><![CDATA[pragha]]></command></action></item>
+    <item label="PulseAudio Equalizer" icon="/home/phil/.config/obmenu-generator/icons/37aadb13036ba786b09b01a2a15df33d.png"><action name="Execute"><command><![CDATA[pulseaudio-equalizer-gtk]]></command></action></item>
+    <item label="SimpleScreenRecorder" icon="/home/phil/.config/obmenu-generator/icons/5a71ea4c560c0e70513e036f296c17a8.png"><action name="Execute"><command><![CDATA[simplescreenrecorder --logfile]]></command></action></item>
+    <item label="Sonata" icon="/home/phil/.config/obmenu-generator/icons/14a995a3332748a8bd2c6eef401b3d51.png"><action name="Execute"><command><![CDATA[sonata]]></command></action></item>
+    <item label="Sound Juicer" icon="/home/phil/.config/obmenu-generator/icons/ccbd2d30c35a1fd6b0afcbb601034548.png"><action name="Execute"><command><![CDATA[sound-juicer]]></command></action></item>
+    <item label="Spotify" icon="/home/phil/.config/obmenu-generator/icons/f65ab5d49b856ba04b66fa1959f585d2.png"><action name="Execute"><command><![CDATA[spotify]]></command></action></item>
+    <item label="VLC media player" icon="/home/phil/.config/obmenu-generator/icons/382039ea03e42fa63cd3fb81853419a6.png"><action name="Execute"><command><![CDATA[/usr/bin/vlc --started-from-file]]></command></action></item>
+    <item label="Volume Icon" icon="/home/phil/.config/obmenu-generator/icons/37aadb13036ba786b09b01a2a15df33d.png"><action name="Execute"><command><![CDATA[volumeicon]]></command></action></item>
+    <item label="Xfburn" icon="/home/phil/.config/obmenu-generator/icons/538e00fd7177a4ddd1a6d18e85bdc767.png"><action name="Execute"><command><![CDATA[xfburn]]></command></action></item>
+  </menu>
+  <menu id="0.76033970447892" icon="/home/phil/.config/obmenu-generator/icons/9cc5e4a4eebdccad5a25b65dc1069320.png" label="Network">
+    <item label="Chromium" icon="/home/phil/.config/obmenu-generator/icons/947e34a2e6330c6b747c37e28012c32f.png"><action name="Execute"><command><![CDATA[/usr/bin/chromium]]></command></action></item>
+    <item label="Firefox" icon="/home/phil/.config/obmenu-generator/icons/3f877811315c6fb047a12d0ef1d982dc.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox/firefox]]></command></action></item>
+    <item label="Geary Email" icon="/home/phil/.config/obmenu-generator/icons/339b898052702b871a174a4a160e9579.png"><action name="Execute"><command><![CDATA[geary]]></command></action></item>
+    <item label="Ice" icon="/home/phil/.config/obmenu-generator/icons/4ba120ead1db5201622808ccca879aa8.png"><action name="Execute"><command><![CDATA[ice]]></command></action></item>
+    <item label="Mail Reader" icon="/home/phil/.config/obmenu-generator/icons/95b96444793e9af0512ff4f8c2c931aa.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="openWMail" icon="/home/phil/.config/obmenu-generator/icons/95b96444793e9af0512ff4f8c2c931aa.png"><action name="Execute"><command><![CDATA[/opt/openwmail/openWMail --mailto=%u]]></command></action></item>
+    <item label="Private Internet Access" icon="/home/phil/.config/obmenu-generator/icons/8be468e8f6ab7f7489a6e238da992364.png"><action name="Execute"><command><![CDATA[/opt/piavpn/bin/pia-client]]></command></action></item>
+    <item label="Steam (Native)" icon="/home/phil/.config/obmenu-generator/icons/c47fbfc08f9e36077e68748f42b1fe04.png"><action name="Execute"><command><![CDATA[/usr/bin/steam-native]]></command></action></item>
+    <item label="Steam (Runtime)" icon="/home/phil/.config/obmenu-generator/icons/c47fbfc08f9e36077e68748f42b1fe04.png"><action name="Execute"><command><![CDATA[/usr/bin/steam-runtime]]></command></action></item>
+    <item label="TeamViewer 14" icon="/home/phil/.config/obmenu-generator/icons/4dafb6194fa7324c9e55202414614cf2.png"><action name="Execute"><command><![CDATA[/opt/teamviewer/tv_bin/script/teamviewer]]></command></action></item>
+    <item label="Transmission" icon="/home/phil/.config/obmenu-generator/icons/dc0a0b7f5111151708e9d9cfc64339e3.png"><action name="Execute"><command><![CDATA[transmission-gtk]]></command></action></item>
+    <item label="Vivaldi" icon="/home/phil/.config/obmenu-generator/icons/7fe06e00950cf431eb1321ecf3aeba06.png"><action name="Execute"><command><![CDATA[/usr/bin/vivaldi-stable]]></command></action></item>
+    <item label="Web Browser" icon="/home/phil/.config/obmenu-generator/icons/8515c04d7657bd5f83a0ad24d8fad128.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+  </menu>
+  <menu id="0.716135854408172" icon="/home/phil/.config/obmenu-generator/icons/f7aa146bcb24c155357f7404bdfb25d0.png" label="Office">
+    <item label="Dictionary" icon="/home/phil/.config/obmenu-generator/icons/e8a2d0f8c898ab2df6bebbad28263289.png"><action name="Execute"><command><![CDATA[xfce4-dict]]></command></action></item>
+    <item label="Document Viewer" icon="/home/phil/.config/obmenu-generator/icons/d960536fc0d79308388737b1a9a3c1e5.png"><action name="Execute"><command><![CDATA[evince]]></command></action></item>
+    <item label="Evolution" icon="/home/phil/.config/obmenu-generator/icons/282d8abe35fcae9ee0cbf0437a33cb53.png"><action name="Execute"><command><![CDATA[evolution]]></command></action></item>
+    <item label="LibreOffice Base" icon="/home/phil/.config/obmenu-generator/icons/724a5f30edebb135f3116e00097a541f.png"><action name="Execute"><command><![CDATA[libreoffice --base]]></command></action></item>
+    <item label="LibreOffice Calc" icon="/home/phil/.config/obmenu-generator/icons/97a978b6a69009f249b1ba2e430624f2.png"><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/phil/.config/obmenu-generator/icons/335801628d3e91e0ccb06b9d30ec1333.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="LibreOffice Impress" icon="/home/phil/.config/obmenu-generator/icons/60fb8317f06ca5acd1ee819842cd16e1.png"><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+    <item label="LibreOffice Math" icon="/home/phil/.config/obmenu-generator/icons/79ba34acbc499233a338fccce9575660.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+    <item label="LibreOffice Writer" icon="/home/phil/.config/obmenu-generator/icons/482067feb6f7a42010e93495e5599637.png"><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+    <item label="LibreOffice" icon="/home/phil/.config/obmenu-generator/icons/86174c1b56e48345e1a430b015cab74d.png"><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
+    <item label="Orage Calendar" icon="/home/phil/.config/obmenu-generator/icons/863fb531be85b90813097beea8cbfb83.png"><action name="Execute"><command><![CDATA[orage]]></command></action></item>
+    <item label="Orage Globaltime" icon="/home/phil/.config/obmenu-generator/icons/e97928d488b6309db5f5d7fff0fffc7c.png"><action name="Execute"><command><![CDATA[globaltime]]></command></action></item>
+  </menu>
+  <menu id="0.420762389656748" icon="/home/phil/.config/obmenu-generator/icons/8ab659bc5c9d2417c56cd5dd4ff59adf.png" label="Other">
+    <item label="AirMirror" icon="/home/phil/.config/obmenu-generator/icons/fa0f19d70e343db7e1cd015ab1c30a7e.png"><action name="Execute"><command><![CDATA[/usr/bin/chromium --profile-directory=Default --app-id=macmgoeeggnlnmpiojbcniblabkdjphe]]></command></action></item>
+    <item label="Music" icon="/home/phil/.config/obmenu-generator/icons/0f503ebb58efe7337c9f0921696c15dd.png"><action name="Execute"><command><![CDATA[termite -e 'termite -e 'ncmpcpp'']]></command></action></item>
+    <item label="NVIDIA X Server Settings" icon="/home/phil/.config/obmenu-generator/icons/ce6b3be537d2c07737ff9a4d57a5f863.png"><action name="Execute"><command><![CDATA[/usr/bin/nvidia-settings]]></command></action></item>
+    <item label="YouTube" icon="/home/phil/.config/obmenu-generator/icons/17341b56f88e47c866b3734685bc2cd6.png"><action name="Execute"><command><![CDATA[chromium-browser --profile-directory=Default --app-id=adnlfjpnmidfimlkaohpidplnoimahfh]]></command></action></item>
+  </menu>
+  <menu id="0.0822057270568166" icon="/home/phil/.config/obmenu-generator/icons/ab18eeee12d0f12a2efca3c0169f404b.png" label="Settings">
+    <item label="Add/Remove Software" icon="/home/phil/.config/obmenu-generator/icons/e60f3c42350a12a21c7667144df3e87d.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Advanced Network Configuration" icon="/home/phil/.config/obmenu-generator/icons/a2ede14f7287dc4ae53c8d7474394524.png"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="Appearance" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+    <item label="Bluetooth" icon="/home/phil/.config/obmenu-generator/icons/1df406279d108cab283ee641e4d5d3e4.png"><action name="Execute"><command><![CDATA[blueberry]]></command></action></item>
+    <item label="Conkyzen" icon="/home/phil/.config/obmenu-generator/icons/f53eea3317f7adc47d4697cc632c92c5.png"><action name="Execute"><command><![CDATA[am-conkyzen]]></command></action></item>
+    <item label="CoverGloobus Configuration" icon="/home/phil/.config/obmenu-generator/icons/bd5469d034342542f2cd2075ee8d7e11.png"><action name="Execute"><command><![CDATA[covergloobus-config]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="dconf Editor" icon="/home/phil/.config/obmenu-generator/icons/ab18eeee12d0f12a2efca3c0169f404b.png"><action name="Execute"><command><![CDATA[dconf-editor]]></command></action></item>
+    <item label="Desktop Preferences" icon="/home/phil/.config/obmenu-generator/icons/50b128add7852b4ef154ea29d4c4f4b2.png"><action name="Execute"><command><![CDATA[pcmanfm --desktop-pref]]></command></action></item>
+    <item label="Disks" icon="/home/phil/.config/obmenu-generator/icons/927928714bd82c0877bf6cb5948f1e5d.png"><action name="Execute"><command><![CDATA[gnome-disks]]></command></action></item>
+    <item label="Display" icon="/home/phil/.config/obmenu-generator/icons/83a445e5c27b07310f2c197096693e3d.png"><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+    <item label="File Manager" icon="/home/phil/.config/obmenu-generator/icons/712c5044126b09ec7cc4e459311b8f91.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="Firewall Configuration" icon="/home/phil/.config/obmenu-generator/icons/a11f13447a4b0d5a334726bd0fe20824.png"><action name="Execute"><command><![CDATA[gufw]]></command></action></item>
+    <item label="Fix Hardcoded Icons" icon="/home/phil/.config/obmenu-generator/icons/7924128ff397ca0f316580754348bec6.png"><action name="Execute"><command><![CDATA[bash -c 'zenity --info --title="Fixing all hardcoded path icons" --text="An empty window means that all icons were already fixed.
+$(pkexec hardcode-fixer)" --width=500 --height=300']]></command></action></item>
+    <item label="GParted" icon="/home/phil/.config/obmenu-generator/icons/7518f6d61120bb2148e8f05d4efebc9d.png"><action name="Execute"><command><![CDATA[/usr/bin/gparted]]></command></action></item>
+    <item label="Grub Customizer" icon="/home/phil/.config/obmenu-generator/icons/ecc18e4529bb12f9f5ab38e69b037978.png"><action name="Execute"><command><![CDATA[grub-customizer]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/phil/.config/obmenu-generator/icons/3cd543bfa4b9b58012e49fa740c8600b.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/phil/.config/obmenu-generator/icons/0e1fa25dfd9407171c3a18994d762d42.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="MIME Type Editor" icon="/home/phil/.config/obmenu-generator/icons/96f4978405ba00c3d1eefcb639d1eb43.png"><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+    <item label="Monitor Settings" icon="/home/phil/.config/obmenu-generator/icons/83a445e5c27b07310f2c197096693e3d.png"><action name="Execute"><command><![CDATA[lxrandr]]></command></action></item>
+    <item label="Mouse and Touchpad" icon="/home/phil/.config/obmenu-generator/icons/480eef22921f24f4fb342506167a2222.png"><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+    <item label="Notifications" icon="/home/phil/.config/obmenu-generator/icons/b265925fe6e6eba7dc73f0eae2fc72fb.png"><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+    <item label="Orage preferences" icon="/home/phil/.config/obmenu-generator/icons/863fb531be85b90813097beea8cbfb83.png"><action name="Execute"><command><![CDATA[orage -p]]></command></action></item>
+    <item label="Panel" icon="/home/phil/.config/obmenu-generator/icons/513554a3856f37242457b7cf0fd2e830.png"><action name="Execute"><command><![CDATA[xfce4-panel --preferences]]></command></action></item>
+    <item label="Power Manager" icon="/home/phil/.config/obmenu-generator/icons/82e69ef7ab6f3f1e2f78626a1b56520e.png"><action name="Execute"><command><![CDATA[xfce4-power-manager-settings]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/phil/.config/obmenu-generator/icons/101c61115806bec39f623d6703bd527c.png"><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/phil/.config/obmenu-generator/icons/ab18eeee12d0f12a2efca3c0169f404b.png"><action name="Execute"><command><![CDATA[libfm-pref-apps]]></command></action></item>
+    <item label="Print Settings" icon="/home/phil/.config/obmenu-generator/icons/02015c8f0c33e532fc341bd7fe835e57.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Privilege granting" icon="/home/phil/.config/obmenu-generator/icons/ffd51bffbdd650933b664866bebb47fe.png"><action name="Execute"><command><![CDATA[gksu-properties]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/phil/.config/obmenu-generator/icons/37aadb13036ba786b09b01a2a15df33d.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt5 Settings" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[qt5ct]]></command></action></item>
+    <item label="Quick System Info" icon="/home/phil/.config/obmenu-generator/icons/a95dd937188e111906080638f59f1554.png"><action name="Execute"><command><![CDATA[termite -e "/usr/bin/inxi -F" --geometry=1000x800 --hold]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/phil/.config/obmenu-generator/icons/90b64b49bf2c63ebd0bc550de8944082.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="Session and Startup" icon="/home/phil/.config/obmenu-generator/icons/f6a76e7bea5efb198e2f46c505a953b0.png"><action name="Execute"><command><![CDATA[xfce4-session-settings]]></command></action></item>
+    <item label="Settings Editor" icon="/home/phil/.config/obmenu-generator/icons/6ef00c1f1be2e7a3d805f90bac445ddc.png"><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+    <item label="Settings Manager" icon="/home/phil/.config/obmenu-generator/icons/ab18eeee12d0f12a2efca3c0169f404b.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+    <item label="Software Update" icon="/home/phil/.config/obmenu-generator/icons/54ce7cf32426b464e6f9d7c69e9711cf.png"><action name="Execute"><command><![CDATA[pamac-manager --updates]]></command></action></item>
+    <item label="System Profiler and Benchmark" icon="/home/phil/.config/obmenu-generator/icons/77c8ebacb4d93c2fa05f6b341d62d9c8.png"><action name="Execute"><command><![CDATA[hardinfo]]></command></action></item>
+    <item label="USB Image Writer" icon="/home/phil/.config/obmenu-generator/icons/cf6b72a6bb6aeb9f66eacbfa215556a1.png"><action name="Execute"><command><![CDATA[mintstick -m iso]]></command></action></item>
+    <item label="Xfce Panel Switch" icon="/home/phil/.config/obmenu-generator/icons/513554a3856f37242457b7cf0fd2e830.png"><action name="Execute"><command><![CDATA[xfpanel-switch]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/phil/.config/obmenu-generator/icons/2f2d34aa02496a505989520ed0074a29.png"><action name="Execute"><command><![CDATA[xfce4-terminal --preferences]]></command></action></item>
+  </menu>
+  <menu id="0.164758101354703" icon="/home/phil/.config/obmenu-generator/icons/6ef00c1f1be2e7a3d805f90bac445ddc.png" label="System">
+    <item label="Add/Remove Software" icon="/home/phil/.config/obmenu-generator/icons/e60f3c42350a12a21c7667144df3e87d.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="ArcoLinux Hello" icon="/home/phil/.config/obmenu-generator/icons/1aefd84bd13aabb3c9e18b8b8db7a74f.png"><action name="Execute"><command><![CDATA[exo-open "https://arcolinux.info/arcolinux-editions/"]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/phil/.config/obmenu-generator/icons/712c5044126b09ec7cc4e459311b8f91.png"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="conky" icon="/home/phil/.config/obmenu-generator/icons/cc5e2a6cdfa09ccc3eb7de5e307d119d.png"><action name="Execute"><command><![CDATA[conky --daemonize --pause=1]]></command></action></item>
+    <item label="Disk Usage Analyzer" icon="/home/phil/.config/obmenu-generator/icons/c4afe4e71616748513cb8a43e91eced3.png"><action name="Execute"><command><![CDATA[baobab]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/phil/.config/obmenu-generator/icons/712c5044126b09ec7cc4e459311b8f91.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="Grsync" icon="/home/phil/.config/obmenu-generator/icons/6e9f6685734ece0f061338d4a39ed0d0.png"><action name="Execute"><command><![CDATA[/usr/bin/grsync -i]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/phil/.config/obmenu-generator/icons/0e1fa25dfd9407171c3a18994d762d42.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Manage Printing" icon="/home/phil/.config/obmenu-generator/icons/02015c8f0c33e532fc341bd7fe835e57.png"><action name="Execute"><command><![CDATA[/usr/bin/xdg-open http://localhost:631/]]></command></action></item>
+    <item label="Print Settings" icon="/home/phil/.config/obmenu-generator/icons/02015c8f0c33e532fc341bd7fe835e57.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Sensor Viewer" icon="/home/phil/.config/obmenu-generator/icons/92c462e023017274e82d43a3344a45b9.png"><action name="Execute"><command><![CDATA[xfce4-sensors]]></command></action></item>
+    <item label="Software Update" icon="/home/phil/.config/obmenu-generator/icons/54ce7cf32426b464e6f9d7c69e9711cf.png"><action name="Execute"><command><![CDATA[pamac-manager --updates]]></command></action></item>
+    <item label="Software" icon="/home/phil/.config/obmenu-generator/icons/e60f3c42350a12a21c7667144df3e87d.png"><action name="Execute"><command><![CDATA[gnome-software]]></command></action></item>
+    <item label="Systemd Manager" icon="/home/phil/.config/obmenu-generator/icons/6ef00c1f1be2e7a3d805f90bac445ddc.png"><action name="Execute"><command><![CDATA[systemd-manager-pkexec]]></command></action></item>
+    <item label="Task Manager" icon="/home/phil/.config/obmenu-generator/icons/3dbf4fdf84d0bdb7af03962a8f12d1dd.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Termite" icon="/home/phil/.config/obmenu-generator/icons/2f2d34aa02496a505989520ed0074a29.png"><action name="Execute"><command><![CDATA[termite]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/phil/.config/obmenu-generator/icons/712c5044126b09ec7cc4e459311b8f91.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Timeshift" icon="/home/phil/.config/obmenu-generator/icons/0dcd2475308c574a3d50831a7930ceb0.png"><action name="Execute"><command><![CDATA[timeshift-launcher]]></command></action></item>
+    <item label="USB Image Writer" icon="/home/phil/.config/obmenu-generator/icons/ffd51bffbdd650933b664866bebb47fe.png"><action name="Execute"><command><![CDATA[mintstick -m iso]]></command></action></item>
+    <item label="USB Stick Formatter" icon="/home/phil/.config/obmenu-generator/icons/ffd51bffbdd650933b664866bebb47fe.png"><action name="Execute"><command><![CDATA[mintstick -m format]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/phil/.config/obmenu-generator/icons/2f2d34aa02496a505989520ed0074a29.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+  </menu>
+  <separator/>
+    <menu id="0.206190158836286" label="Places" execute="am-places-pipemenu" icon="/home/phil/.config/obmenu-generator/icons/32abc7629978a9893f3a5b1233698d81.png"/>
+    <menu id="0.68791435289403" label="Recent Files" execute="am-recent-files-pipemenu" icon="/home/phil/.config/obmenu-generator/icons/b93349a011d5c39431147ae68bfc5902.png"/>
+  <separator/>
+    <menu id="0.348189524689374" label="Conky" execute="am-conky-pipemenu" icon="/home/phil/.config/obmenu-generator/icons/f53eea3317f7adc47d4697cc632c92c5.png"/>
+  <menu id="0.948471044496269" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png" label="Preferences">
+    <item label="Choose wallpaper" icon="/home/phil/.config/obmenu-generator/icons/66ef828eb0ceace97c89e7281b246dcb.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="Exit Appearance" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[gksudo geany /etc/oblogout.conf]]></command></action></item>
+    <item label="LightDM Appearance" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[gksudo lightdm-gtk-greeter-settings]]></command></action></item>
+    <item label="Lxappearance" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Slim Appearance" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[gksudo geany /etc/slim.conf]]></command></action></item>
+    <item label="Termite Appearance" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[geany ~/.config/termite/config]]></command></action></item>
+    <item label="Xfce4 Appearance" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+  <separator/>
+    <item label="Login Settings" icon="/home/phil/.config/obmenu-generator/icons/0e1fa25dfd9407171c3a18994d762d42.png"><action name="Execute"><command><![CDATA[gksudo geany /etc/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm.conf]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/phil/.config/obmenu-generator/icons/101c61115806bec39f623d6703bd527c.png"><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+    <item label="Printing" icon="/home/phil/.config/obmenu-generator/icons/02015c8f0c33e532fc341bd7fe835e57.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Sound Preferences" icon="/home/phil/.config/obmenu-generator/icons/37aadb13036ba786b09b01a2a15df33d.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Xfce4 Settings Manager" icon="/home/phil/.config/obmenu-generator/icons/ab18eeee12d0f12a2efca3c0169f404b.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+  <separator/>
+    <menu id="0.0300645812823106" label="Compositor" execute="am-compositor" icon="/home/phil/.config/obmenu-generator/icons/6caabefc4c4842bd24c5fc6f4285b858.png"/>
+  <menu id="0.338298391755249" icon="/home/phil/.config/obmenu-generator/icons/208a999ffc01d0dd4e438733b20e37b0.png" label="Openbox">
+    <item label="Edit menu.xml" icon="/home/phil/.config/obmenu-generator/icons/d7ace6078ac092472e280edf4470cd9b.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Edit rc.xml" icon="/home/phil/.config/obmenu-generator/icons/d7ace6078ac092472e280edf4470cd9b.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Edit autostart" icon="/home/phil/.config/obmenu-generator/icons/d7ace6078ac092472e280edf4470cd9b.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+  <separator/>
+    <item label="GUI Menu Editor" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[obmenu3]]></command></action></item>
+    <item label="GUI Config Tool" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="GUI Keybinds" icon="/home/phil/.config/obmenu-generator/icons/1d90249152d8cd2d8519555e6c805ca6.png"><action name="Execute"><command><![CDATA[obkey]]></command></action></item>
+  <separator/>
+    <item label="Restart Openbox" icon="/home/phil/.config/obmenu-generator/icons/208a999ffc01d0dd4e438733b20e37b0.png"><action name="Execute"><command><![CDATA[openbox --restart]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/phil/.config/obmenu-generator/icons/208a999ffc01d0dd4e438733b20e37b0.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+    <menu id="0.384220270322686" label="Tint2" execute="am-tint2-pipemenu" icon="/home/phil/.config/obmenu-generator/icons/f88dcdc90e5b257278a19c9b435e9cc7.png"/>
+    <item label="Tint2 GUI" icon="/home/phil/.config/obmenu-generator/icons/f88dcdc90e5b257278a19c9b435e9cc7.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+  </menu>
+  <menu id="0.150294565194098" icon="/home/phil/.config/obmenu-generator/icons/66a32d135a31cf5934a5f7c45fc371df.png" label="System Settings">
+    <item label="Pamac Updater and Package Manager" icon="/home/phil/.config/obmenu-generator/icons/e60f3c42350a12a21c7667144df3e87d.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+  <separator/>
+    <item label="File Manager As Root" icon="/home/phil/.config/obmenu-generator/icons/712c5044126b09ec7cc4e459311b8f91.png"><action name="Execute"><command><![CDATA[gksudo thunar]]></command></action></item>
+    <item label="Text Editor As Root" icon="/home/phil/.config/obmenu-generator/icons/8be882ed3b996eaf2ea7cd6054a41796.png"><action name="Execute"><command><![CDATA[gksudo geany]]></command></action></item>
+  <separator/>
+    <item label="Disks" icon="/home/phil/.config/obmenu-generator/icons/927928714bd82c0877bf6cb5948f1e5d.png"><action name="Execute"><command><![CDATA[gnome-disks]]></command></action></item>
+    <item label="GParted" icon="/home/phil/.config/obmenu-generator/icons/7518f6d61120bb2148e8f05d4efebc9d.png"><action name="Execute"><command><![CDATA[gksudo gparted]]></command></action></item>
+    <item label="System Profiler and Benchmark" icon="/home/phil/.config/obmenu-generator/icons/77c8ebacb4d93c2fa05f6b341d62d9c8.png"><action name="Execute"><command><![CDATA[hardinfo]]></command></action></item>
+    <item label="Taskmanager" icon="/home/phil/.config/obmenu-generator/icons/3dbf4fdf84d0bdb7af03962a8f12d1dd.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.616482088183155" icon="/home/phil/.config/obmenu-generator/icons/bcd39cf1668058e07bf8155f25d08119.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/phil/.config/obmenu-generator/icons/1441a69ef5d51e63b69197e8ebdc90b0.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/phil/.config/obmenu-generator/icons/1441a69ef5d51e63b69197e8ebdc90b0.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a pipe menu" icon="/home/phil/.config/obmenu-generator/icons/bcd39cf1668058e07bf8155f25d08119.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a static menu" icon="/home/phil/.config/obmenu-generator/icons/bcd39cf1668058e07bf8155f25d08119.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a pipe menu with icons" icon="/home/phil/.config/obmenu-generator/icons/bcd39cf1668058e07bf8155f25d08119.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/phil/.config/obmenu-generator/icons/bcd39cf1668058e07bf8155f25d08119.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Refresh Icon Set" icon="/home/phil/.config/obmenu-generator/icons/415dfa018a1192f5453429019f6ebd58.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <separator/>
+    <menu id="0.0897625901942725" label="Need To Know" execute="am-need-to-know-pipemenu" icon="/home/phil/.config/obmenu-generator/icons/98a26e1721067c0ddb3a4a21ecb10e87.png"/>
+  <separator/>
+    <menu id="0.0896265041561009" label="Help &amp; Resources" execute="am-help-pipemenu" icon="/home/phil/.config/obmenu-generator/icons/12c77524803e404e475b8f0358580706.png"/>
+    <menu id="0.71268410704911" label="Display Keybinds" execute="am-kb-pipemenu" icon="/home/phil/.config/obmenu-generator/icons/0e693d8115b6a7ef68b600988639dbf1.png"/>
+  <separator/>
+    <item label="Lock Screen" icon="/home/phil/.config/obmenu-generator/icons/9c0ce9e1b7f0e91b86f681d169052676.png"><action name="Execute"><command><![CDATA[slimlock]]></command></action></item>
+    <item label="Exit Openbox" icon="/home/phil/.config/obmenu-generator/icons/195f346771dfe753802ae82c9452f2de.png"><action name="Execute"><command><![CDATA[oblogout]]></command></action></item>
+  </menu>
+</openbox_menu>
