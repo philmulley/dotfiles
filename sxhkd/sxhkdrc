@@ -61,6 +61,10 @@ super + e
 #Toggle fullscreen of window
 super + f
 	bspc node --state \~fullscreen
+    
+#Steam Games
+super + g
+    steam steam STEAM_RUNTIME=1
 
 #Htop
 super + h
@@ -68,7 +72,7 @@ super + h
 
 #music player
 super + m
-    pragha
+    urxvt +e ncmpcpp
 
 # Toggle pseudo tiling of window
 super + p
@@ -78,9 +82,9 @@ super + p
 super + r
     rofi-theme-selector
 
-#Urxvt
+#Xfce-Terminal
 super + t
-    urxvt
+    xfce4-terminal
 
 #Pavucontrol
 super + v
@@ -197,6 +201,10 @@ ctrl + alt + o
 #Spotify
 ctrl + alt + s
      spotify
+
+#CursesRadio
+ctrl + alt + r
+     urxvt +e curseradio    
 
 #Urxvt
 ctrl + alt + t
